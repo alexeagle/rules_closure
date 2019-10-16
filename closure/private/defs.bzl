@@ -42,7 +42,7 @@ JS_LANGUAGES = depset([
 ])
 
 CLOSURE_LIBRARY_BASE_ATTR = attr.label(
-    default = Label("//closure/library:base"),
+    default = Label("@com_google_javascript_closure_library//closure/goog:base"),
     allow_files = True,
 )
 

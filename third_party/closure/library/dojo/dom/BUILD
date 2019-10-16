@@ -16,10 +16,10 @@ closure_js_library(
     srcs = ["@com_google_javascript_closure_library//:third_party/closure/goog/dojo/dom/query.js"],
     lenient = True,
     deps = [
-        "//closure/library/array",
-        "//closure/library/dom",
-        "//closure/library/functions",
-        "//closure/library/string",
-        "//closure/library/useragent",
+        "@com_google_javascript_closure_library//closure/goog/array",
+        "@com_google_javascript_closure_library//closure/goog/dom",
+        "@com_google_javascript_closure_library//closure/goog/functions",
+        "@com_google_javascript_closure_library//closure/goog/string",
+        "@com_google_javascript_closure_library//closure/goog/useragent",
     ],
 )

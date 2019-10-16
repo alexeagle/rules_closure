@@ -16,9 +16,9 @@ closure_js_library(
     srcs = ["@com_google_javascript_closure_library//:third_party/closure/goog/svgpan/svgpan.js"],
     lenient = True,
     deps = [
-        "//closure/library/disposable",
-        "//closure/library/events",
-        "//closure/library/events:eventtype",
-        "//closure/library/events:mousewheelhandler",
+        "@com_google_javascript_closure_library//closure/goog/disposable",
+        "@com_google_javascript_closure_library//closure/goog/events",
+        "@com_google_javascript_closure_library//closure/goog/events:eventtype",
+        "@com_google_javascript_closure_library//closure/goog/events:mousewheelhandler",
     ],
 )

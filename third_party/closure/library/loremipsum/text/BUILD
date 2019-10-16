@@ -16,10 +16,10 @@ closure_js_library(
     srcs = ["@com_google_javascript_closure_library//:third_party/closure/goog/loremipsum/text/loremipsum.js"],
     lenient = True,
     deps = [
-        "//closure/library/array",
-        "//closure/library/math",
-        "//closure/library/string",
-        "//closure/library/structs:map",
-        "//closure/library/structs:set",
+        "@com_google_javascript_closure_library//closure/goog/array",
+        "@com_google_javascript_closure_library//closure/goog/math",
+        "@com_google_javascript_closure_library//closure/goog/string",
+        "@com_google_javascript_closure_library//closure/goog/structs:map",
+        "@com_google_javascript_closure_library//closure/goog/structs:set",
     ],
 )

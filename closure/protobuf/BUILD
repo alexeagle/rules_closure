@@ -28,11 +28,11 @@ closure_js_library(
         "strictCheckTypes",
     ],
     deps = [
-        "//closure/library/array",
-        "//closure/library/asserts",
-        "//closure/library/crypt",
-        "//closure/library/crypt:base64",
-        "//closure/library/object",
-        "//closure/library/string",
+        "@com_google_javascript_closure_library//closure/goog/array",
+        "@com_google_javascript_closure_library//closure/goog/asserts",
+        "@com_google_javascript_closure_library//closure/goog/crypt",
+        "@com_google_javascript_closure_library//closure/goog/crypt:base64",
+        "@com_google_javascript_closure_library//closure/goog/object",
+        "@com_google_javascript_closure_library//closure/goog/string",
     ],
 )
